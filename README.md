@@ -11,8 +11,9 @@ yum install boost-devel cmake gcc-c++ mysql-devel git
 ```
 Enter the following commands in a terminal. Be patient while g++ is running, it'll take a few minutes.
 ```
-git clone https://github.com/poiuty/xbt.git
+git clone https://github.com/nilimahona/XBT-rev-2494-customized-for-BLU-edition.git
 cd xbt/Tracker
+chmod 777 make.sh
 ./make.sh
 cp xbt_tracker.conf.default xbt_tracker.conf
 ```
